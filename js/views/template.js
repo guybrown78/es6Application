@@ -1,4 +1,4 @@
-import {$htmlString} from './views/templateTags/htmlString.js';
+import {$htmlString} from './templateTags/htmlString.js';
 
 const node = data => $htmlString`
     <li data-depth="${data.depth}">
